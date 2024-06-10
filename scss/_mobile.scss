@@ -34,6 +34,16 @@
     .menu-branding {
         height: 25vh;
     }
+
+    .about-info {
+        grid-template-areas: 
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+
+        grid-template-columns: 1fr;
+    }
 }
 
 //smartphones
